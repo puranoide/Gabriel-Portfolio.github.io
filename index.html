@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link de estilos de flowbite-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="shortcut icon" href="assets/img/src/iconmonstr-id-card-15.svg">
+
+
+    <title>Gabriel-Desarrollador de Software</title>
+</head>
+<body>
+    
+    <!--Navbar-portafolio-->
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600" id="navbar">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contactame</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#proyectosid" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Mis proyectos</a>
+        </li>
+        <li>
+          <a href="#exp-laboral" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Experiencia laboral</a>
+        </li>
+
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <!--hero-seccion-->
+  <section class="bg-white dark:bg-gray-900 mt-8" id="hero">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+     
+        <div class="mr-auto place-self-center lg:col-span-7 me-8" >
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Desarrolador de Software</h1>
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">¡Hola! Soy Gabriel, un apasionado desarrollador de software y ingeniero promt para IA de 21 años con una habilidad innata para resolver problemas y un amor por la creación de soluciones innovadoras. Mi arsenal de herramientas incluye PHP, MySQL, Java, JavaScript, Python y HTML, y estoy constantemente ampliando mis conocimientos para mantenerme a la vanguardia en el mundo de la ingeniería de software. Con una mente analítica y una creatividad desbordante, me embarco en cada proyecto con determinación y dedicación, siempre buscando superar los desafíos y alcanzar resultados excepcionales. ¡Conmigo, la excelencia es la norma y la innovación es la clave!</p>
+            
+
+            <div class="container-contacto">
+                <a href="https://github.com/puranoide" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+
+                <a href="https://www.instagram.com/puranoide/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg></a>
+
+                <a href="https://www.linkedin.com/in/angel-gabriel-acosta-sanchez-46b7a9272/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>
+                 </a>
+            </div>
+            <!--<span class="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3"><span class="flex w-2.5 h-2.5 bg-red-600 rounded-full me-1.5 flex-shrink-0"></span>Perú</span>-->
+        </div>
+
+        <div class="lg:mt-0 lg:col-span-5 lg:flex mt-8">
+            <img src="assets/img/src/gabriel-porfolio.webp" alt="mockup" class="rounded-full  w-96 h-96 mt-8">
+        </div>  
+                     
+    </div>
+</section>
+  
+
+<!--proyectos sección-->
+
+<section class="bg-gray-50 dark:bg-gray-900" id="proyectosid">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+                <a href="https://github.com/puranoide/MealsApp" target="_blank" class="bg-purple-100 text-purple-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-purple-400 mb-2">
+                    <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4 1 8l4 4m10-8 4 4-4 4M11 1 9 15"/>
+                    </svg>
+                    Code
+                </a>
+                <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Meals App Android</h2>
+                <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Aplicativo movil que consume una API donde mostramos categorias de comidas y te permite entrar a cada categoria para ver las comidas disponibles en la categoria correspondiente</p>
+                <a href="https://github.com/puranoide/MealsApp" target="_blank" class="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Ver más
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+                </a>
+            </div>
+            <div class="bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+                <a href="https://github.com/puranoide/Cinestar-api-html-js.github.io" target="_blank" class="bg-purple-100 text-purple-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-purple-400 mb-2">
+                    <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4 1 8l4 4m10-8 4 4-4 4M11 1 9 15"/>
+                    </svg>
+                    Code
+                </a>
+                <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Pagina Web de CineStar Consumiendo una API</h2>
+                <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Pagina web estatica construida con un api de cine y peliculas</p>
+                <a href="https://github.com/puranoide/Cinestar-api-html-js.github.io" target="_blank" class="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Ver más
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-gray-50 dark:bg-gray-900" id="proyectosid">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+                <a href="https://github.com/puranoide/Crear-certificados-automaticos-con-python-y-HTML" target="_blank" class="bg-purple-100 text-purple-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-purple-400 mb-2">
+                    <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4 1 8l4 4m10-8 4 4-4 4M11 1 9 15"/>
+                    </svg>
+                    Code
+                </a>
+                <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Automatizacion de certificados con Python y HTML</h2>
+                <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Este proyectos consta de scripts para generar diplomas automaticos de acuerdo a una plantilla que se crea usando html e insertando los datos con python</p>
+                <a href="https://github.com/puranoide/Crear-certificados-automaticos-con-python-y-HTML" target="_blank" class="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Ver más
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+                </a>
+            </div>
+            <div class="bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+                <a href="https://github.com/puranoide/Crud-python-Ingresos--Y-Egresos" target="_blank" class="bg-purple-100 text-purple-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-purple-400 mb-2">
+                    <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4 1 8l4 4m10-8 4 4-4 4M11 1 9 15"/>
+                    </svg>
+                    Code
+                </a>
+                <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Aplicacion de escritorio para administracion de egresos e ingresos</h2>
+                <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Este proyecto consta de una vista que enlista tanto ingresos como egresos y opera un CRUD para su administracion respectiva</p>
+                <a href="https://github.com/puranoide/Crud-python-Ingresos--Y-Egresos" target="_blank" class="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Ver más
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Experiencia laboral-->
+
+<ol class="relative border-s border-gray-200 dark:border-gray-700" id="exp-laboral">                  
+    <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Julio 2021</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Diseñador web para JCFRANCAIS</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Desarrolle como practicante una landing-page para una escuela virtual de frances,puse en practica mis conocimientos en html y css responsive</p>
+        <a href="https://www.jcfrancais.com" target="_blank" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Ver pagina <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg></a>
+    </li>
+    <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Noviembre 2023</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrolador Web y manejo de datos-Faromedic</h3>
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Actualmente consultor para la startup FAROMEDIC,mis funciones principales son filtrar datos en masa para reportes mas detallados,facilitando la busqueda y la planeacion estrategica de acuerdo a los datos,tambien me encargo de Automatizar procesos y desplegar paginas webs a pedido de los clientes y la empresa</p>
+    </li>
+
+</ol>
+
+
+<!--footer-->
+
+
+
+<footer class="bg-white dark:bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="#hero" class="flex items-center">
+                  
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Gabriel Sánchez </span>
+              </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+ 
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sigueme</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="https://github.com/puranoide" class="hover:underline " target="_blank">Github</a>
+                      </li>
+                      <li class="mb-4">
+                        <a href="https://www.instagram.com/puranoide/" class="hover:underline " target="_blank">Instagram</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="https://www.linkedin.com/in/angel-gabriel-acosta-sanchez-46b7a9272/" target="_blank" class="hover:underline ">linkedin</a>
+                    </li>
+
+                  </ul>
+              </div>
+     
+          </div>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#hero" class="hover:underline">Portafolio personal</a>.Hecho por Gabriel Sánchez-Perú
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+
+
+              <a href="https://twitter.com/puranogame" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                </svg>
+                  <span class="sr-only">Twitter page</span>
+              </a>
+              <a href="https://github.com/puranoide" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                  </svg>
+                  <span class="sr-only">GitHub account</span>
+              </a>
+
+          </div>
+      </div>
+    </div>
+</footer>
+
+
+  <!--Link de scripts de flowbite-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+</body>
+</html>

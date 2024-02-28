@@ -1,0 +1,47 @@
+/* Pequeño (Small) */
+@media (min-width: 576px) {
+    /* Estilos para dispositivos móviles */
+    .container-contacto {
+        display: inline-flex;
+    }
+    #exp-laboral {
+        margin-left: 0px;
+    }
+}
+
+/* Mediano (Medium) */
+@media (min-width: 768px) {
+    /* Estilos para tablets */
+    .container-contacto {
+        display: inline-flex;
+    }
+}
+
+/* Grande (Large) */
+@media (min-width: 992px) {
+    /* Estilos para laptops y computadoras de escritorio */
+    #exp-laboral {
+        margin-left: 5%;
+    }
+    .container-contacto {
+        display: inline-flex;
+    }
+}
+
+/* Extra grande (Extra Large) */
+@media (min-width: 1200px) {
+    /* Estilos para pantallas grandes */
+    #exp-laboral {
+        margin-left: 15%;
+    }
+    .container-contacto {
+        display: inline-flex;
+    }
+    .container-contacto a{
+        margin-left: 20%;
+    }
+    .container-contacto a svg{
+        width: 35px;
+        height: 35px;
+    }
+}
